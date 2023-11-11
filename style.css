@@ -25,7 +25,7 @@ body {
 
 .column2 {
   background-color: #778899;
-  position: fixed;
+  position: relative;
   flex: 80%;
   height: 100%;
 }
