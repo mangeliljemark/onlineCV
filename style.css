@@ -6,6 +6,9 @@ body {
 
 .container {
   display: flex;
+  position: relative;
+  background-color: #778899;
+  color: #fff;
 }
 
 .row {
@@ -39,8 +42,7 @@ main {
 
 header,
 section {
-  margin-bottom: 40px;
-  background-color: blueviolet;
+  background-color: #2f4f4f;
   color: #fff;
 }
 
