@@ -8,6 +8,18 @@ body {
   display: flex;
 }
 
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 20%;
+}
+
+.column2 {
+  flex: 80%;
+}
+
 aside {
   background-color: #333;
   color: #fff;
@@ -28,6 +40,8 @@ main {
 header,
 section {
   margin-bottom: 40px;
+  background-color: blueviolet;
+  color: #fff;
 }
 
 .project img {

@@ -2,78 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Magnus E. Liljemark </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <aside>
-            <h1>Your Name</h1>
-            <p>Web Developer</p>
-            <!-- Add more personal information as needed -->
-
-            <h2>Contact</h2>
-            <p>Email: your@email.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <!-- Add more contact information as needed -->
-        </aside>
-
-        <main>
-            <header>
-                <h2>About Me</h2>
-                <p>Add a brief description about yourself here.</p>
-            </header>
-
-            <section id="projects">
-                <h2>Projects</h2>
-                <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-                <div class="project">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Description of Project 2.</p>
-                </div>
-                <!-- Add more projects as needed -->
-            </section>
-
-            <section id="contact">
-                <h2>Contact</h2>
-                <form id="contact-form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-
-                    <button type="submit">Send Message</button>
-                </form>
-            </section>
-        </main>
-
-        <div class="dropdown-menu">
-            <!-- Add your dropdown menu items here -->
-            <button onclick="location.href='#about'">About</button>
-            <button onclick="location.href='#projects'">Projects</button>
-            <button onclick="location.href='#contact'">Contact</button>
+    <header>
+        <div class="header">
+            <h1>Portfolio</h1>
         </div>
+    </header>
+
+    <div class="row">
+        <div class="column1">
+            <img src="images/placeholder.png" alt="Magnus E. Liljemark" style="width:100%">
+            <div class="container">
+                <h2>Magnus E. Liljemark</h2>
+                <p class="title">M.Sc Systems, Control and Robotics, KTH</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="dropdown">
+                <button class="dropbtn">Machine Learning</button>
+                <div class="dropdown-content">
+                    <a href="#">Machine Learning</a>
+                    <a href="#">Machine Learning, Advanced Course</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Games</button>
+                <div class="dropdown-content">
+                    <a href="#">Unity</a>
+                    <a href="#">Unreal Engine 5</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Your Name. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
