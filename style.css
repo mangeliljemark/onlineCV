@@ -16,78 +16,40 @@ body {
 }
 
 .column1 {
+  background-color: #708090;
+
   flex: 20%;
 }
 
 .column2 {
+  background-color: #778899;
   flex: 80%;
 }
 
-aside {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  width: 20%;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #708090;
+  overflow: hidden;
 }
 
-aside h1,
-aside h2 {
-  margin-top: 0;
-}
-
-main {
-  width: 60%;
-  padding: 20px;
-}
-
-header,
-section {
-  background-color: #2f4f4f;
-  color: #fff;
-}
-
-.project img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ddd;
-}
-
-form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-form label,
-form textarea,
-form input {
-  display: block;
-  margin-bottom: 10px;
-}
-
-button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #555;
-}
-
-.dropdown-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #333;
-  padding: 10px;
-}
-
-footer {
-  background-color: #333;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
-  width: 100%;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #778899;
+  color: #fff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2f4f4f;
+  color: white;
 }
